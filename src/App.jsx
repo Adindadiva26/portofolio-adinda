@@ -428,7 +428,7 @@ export default function Portfolio() {
           <div className="social-row" style={{ display: "flex", gap: 10, marginBottom: 24, flexWrap: "wrap", padding: "6px 4px" }}>
             {[
               { icon: "https://cdn.simpleicons.org/github/ffffff", label: "GitHub", href: "https://github.com/Adindadiva26", bg: "#333", hoverBg: "#111" }, 
-              { icon: "image/icons8-linkedin-50.png", label: "LinkedIn", href: "https://www.linkedin.com/in/kadek-adinda-diva-krisdella-a5b9102a2/", bg: "#0A66C2", hoverBg: "#004182" }, 
+              { icon: "icons8-linkedin-50.png", label: "LinkedIn", href: "https://www.linkedin.com/in/kadek-adinda-diva-krisdella-a5b9102a2/", bg: "#0A66C2", hoverBg: "#004182" }, 
               { icon: "https://cdn.simpleicons.org/instagram/ffffff", label: "Instagram", href: "https://instagram.com/adindadiva17", bg: "#E4405F", hoverBg: "#C13584" }
             ].map((social, index) => (
               <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" style={{ 
@@ -496,7 +496,7 @@ export default function Portfolio() {
           }}>
             <img 
               className="hero-img" 
-              src="image/Foto .png" 
+              src="Foto .png" 
               alt="Kadek Adinda" 
               style={{
                 width: "100%",
@@ -557,7 +557,7 @@ export default function Portfolio() {
             <Reveal delay={0.1}>
               <div className="about-image-wrapper">
                 <div className="about-image-border">
-                  <div className="about-image-box"><img className="about-image" src="image/Confident professional headshot portrait.png" alt="About" /></div>
+                  <div className="about-image-box"><img className="about-image" src="Confident professional headshot portrait.png" alt="About" /></div>
                 </div>
               </div>
             </Reveal>
@@ -615,7 +615,7 @@ export default function Portfolio() {
       >
         <div className="project-image-wrapper">
           <img 
-            src="/image/1.png" 
+            src="1.png" 
             alt="Project POS"
             className="project-image"
             onError={(e) => { e.target.src = "/images/placeholder.png"; }}
@@ -666,7 +666,7 @@ export default function Portfolio() {
       >
         <div className="project-image-wrapper">
           <img 
-            src="image/2.png" 
+            src="2.png" 
             alt="Chatbot Booking WhatsApp"
             className="project-image"
             onError={(e) => { e.target.src = "/images/placeholder.png"; }}
@@ -720,7 +720,7 @@ export default function Portfolio() {
       >
         <div className="project-image-wrapper">
           <img 
-            src="image/Photo from Dinda.jpg" 
+            src="Photo from Dinda.jpg" 
             alt="Suite QA Testing"
             className="project-image"
             onError={(e) => { e.target.src = "/images/placeholder.png"; }}
